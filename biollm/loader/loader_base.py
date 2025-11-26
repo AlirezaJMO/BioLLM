@@ -12,7 +12,7 @@ import torch
 import wandb
 import os
 import re
-# from biollm.repo.scgpt.tokenizer.gene_tokenizer import GeneVocab
+from biollm.repo.scgpt.tokenizer.gene_tokenizer import GeneVocab
 
 
 class LoaderBase(object):
