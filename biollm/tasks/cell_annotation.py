@@ -15,7 +15,9 @@ import torch.distributed as dist
 from torch.nn.parallel import DistributedDataParallel
 # from biollm.trainer import anno_scgpt_train, anno_scbert_train, anno_geneformer_train, anno_scfoundation_train, anno_cellplm_train
 
-from biollm.trainer import anno_scbert_train, anno_geneformer_train, anno_scfoundation_train, anno_cellplm_train
+from biollm.trainer import  anno_scbert_train, anno_geneformer_train, anno_scfoundation_train, anno_cellplm_train
+
+
 from biollm.evaluate.bm_metrices_anno import compute_metrics
 import pickle
 from biollm.algorithm.annotation import ScbertClassification, LinearProbingClassifier

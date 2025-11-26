@@ -9,7 +9,7 @@
 from biollm.utils.log_manager import LogManager
 import torch
 # from biollm.loader.scgpt import Scgpt
-from biollm.loader.mamba import Scmamba
+# from biollm.loader.mamba import Scmamba
 from biollm.loader.scbert import Scbert
 from biollm.loader.scfoundation import Scfoundation
 from biollm.loader.geneformer import Geneformer
